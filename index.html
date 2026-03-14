@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofyan Adiel — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div id="loader">
+        <div class="loader-content">
+            <p class="loader-name">Sofyan Adiel</p>
+            <div class="loader-bar">
+                <div class="loader-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Sofyan Adiel</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+
+        <!-- Kiri: Teks -->
+        <div class="hero-content">
+            <p class="hero-tag">Hello, I'm</p>
+            <h1>Sofyan Adiel</h1>
+            <h2 class="hero-sub">Network Engineer</h2>
+            <p class="hero-desc">
+                A Computer Science student passionate about building robust networks 
+                and developing end-to-end web solutions.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+                <a href="cv.pdf" download class="btn btn-outline">⬇ Download CV</a>
+            </div>
+        </div>
+
+        <!-- Kanan: Foto -->
+        <div class="hero-image">
+            <div class="hero-image-wrapper">
+                <img src="sofyanpic.png" alt="Sofyan Adiel">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>
+                I'm <strong>Sofyan Adiel</strong>, a Computer Science student with a strong 
+                interest in <strong>network engineering</strong> and <strong>fullstack web development</strong>. 
+                I enjoy solving complex infrastructure problems and turning ideas into 
+                functional web applications.
+            </p>
+            <p>
+                With hands-on experience in <strong>Cisco & MikroTik</strong> network configuration 
+                and backend development using <strong>Python</strong>, I bridge the gap between 
+                networking and software development — a combination that makes me a 
+                versatile problem solver.
+            </p>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-num">3+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">2+</span>
+                    <span class="stat-label">Years of Learning</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">5+</span>
+                    <span class="stat-label">Technologies Mastered</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-group">
+
+            <div class="skill-category">
+                <h3>Networking</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">Cisco</div>
+                    <div class="skill-card">MikroTik</div>
+                    <div class="skill-card">TCP/IP</div>
+                    <div class="skill-card">Network Config</div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Development</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">Python</div>
+                    <div class="skill-card">JavaScript</div>
+                    <div class="skill-card">HTML & CSS</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-tag">Networking</div>
+                <h3>Campus Network Design</h3>
+                <p>Designed and configured a simulated campus network topology using Cisco Packet Tracer, implementing VLANs, routing protocols, and network security.</p>
+                <div class="project-tech">
+                    <span>Cisco</span><span>Packet Tracer</span><span>VLAN</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-tag">Fullstack</div>
+                <h3>Student Task Manager</h3>
+                <p>A web-based task management app built for students to track assignments and deadlines, with a Python backend and clean frontend interface.</p>
+                <div class="project-tech">
+                    <span>Python</span><span>JavaScript</span><span>HTML/CSS</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-tag">Networking</div>
+                <h3>MikroTik Hotspot Setup</h3>
+                <p>Configured a MikroTik-based hotspot system with user authentication, bandwidth management, and network monitoring for a small office environment.</p>
+                <div class="project-tech">
+                    <span>MikroTik</span><span>RouterOS</span><span>Hotspot</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-desc">
+            I'm currently open to internship opportunities, freelance projects, 
+            and collaborations. Feel free to reach out!
+        </p>
+        <div class="contact-links">
+            <a href="mailto:sfnay13@gmail.com" class="btn btn-primary">✉ Send Email</a>
+            <a href="https://www.linkedin.com/in/sofyan-adiel-928316280" target="_blank" class="btn btn-outline">LinkedIn</a>
+            <a href="https://github.com/sfnayy" target="_blank" class="btn btn-outline">GitHub</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Sofyan Adiel. Crafted with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
