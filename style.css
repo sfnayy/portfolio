@@ -435,18 +435,64 @@ nav ul a.active {
 
 /* ===== RESPONSIVE MOBILE ===== */
 @media (max-width: 768px) {
+
+  /* NAVBAR */
   nav {
-    padding: 16px 24px;
+    padding: 14px 20px;
+  }
+
+  .logo {
+    font-size: 0.95rem;
+    letter-spacing: 1px;
   }
 
   nav ul {
-    gap: 20px;
+    gap: 16px;
   }
 
+  nav ul a {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+
+  /* HERO */
   #hero {
-    padding: 0 24px;
+    flex-direction: column;
+    padding: 100px 24px 60px;
+    text-align: center;
+    gap: 40px;
   }
 
+  .hero-content {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .hero-desc {
+    max-width: 100%;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image-wrapper {
+    width: 240px;
+    height: 300px;
+  }
+
+  /* SECTIONS */
   section {
     padding: 80px 24px;
   }
@@ -456,32 +502,9 @@ nav ul a.active {
     gap: 30px;
   }
 
-  .hero-btns {
-    flex-direction: column;
-    width: fit-content;
-  }
-
   .contact-links {
     flex-direction: column;
-    width: fit-content;
-  }
-  #hero {
-    flex-direction: column-reverse;
-    padding: 100px 24px 60px;
-    text-align: center;
-  }
-
-  .hero-content {
-    max-width: 100%;
-  }
-
-  .hero-btns {
-    justify-content: center;
-  }
-
-  .hero-image-wrapper {
-    width: 220px;
-    height: 270px;
+    width: 100%;
   }
 }
 
